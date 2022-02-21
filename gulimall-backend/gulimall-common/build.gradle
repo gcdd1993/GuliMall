@@ -1,0 +1,14 @@
+plugins {
+    id "java-library"
+    id "maven-publish"
+}
+dependencies {
+    api("com.baomidou:mybatis-plus-boot-starter")
+    api("org.apache.httpcomponents:httpcore")
+    api("commons-lang:commons-lang")
+    api("mysql:mysql-connector-java")
+    api("com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery")
+    api("com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config")
+    api("javax.validation:validation-api")
+    compileOnly("javax.servlet:servlet-api")
+}

@@ -1,0 +1,43 @@
+plugins {
+    id "application"
+}
+dependencies {
+    implementation(project(":gulimall-common"))
+    implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
+    implementation("org.springframework.boot:spring-boot-starter-data-redis")
+
+    runtimeOnly("mysql:mysql-connector-java")
+    runtimeOnly("com.oracle.database.jdbc:ojdbc6")
+    runtimeOnly("com.microsoft.sqlserver:sqljdbc4")
+    runtimeOnly("org.postgresql:postgresql")
+
+    implementation("com.alibaba:druid-spring-boot-starter")
+    implementation("org.quartz-scheduler:quartz") {
+        exclude group: "com.mchange", module: "c3p0"
+    }
+    implementation("commons-lang:commons-lang")
+    implementation("commons-fileupload:commons-fileupload")
+
+    implementation("commons-io:commons-io")
+    implementation("commons-codec:commons-codec")
+    implementation("commons-configuration:commons-configuration")
+    implementation("org.apache.shiro:shiro-core")
+    implementation("org.apache.shiro:shiro-spring")
+    implementation("io.jsonwebtoken:jjwt")
+    implementation("com.github.axet:kaptcha")
+    implementation("io.springfox:springfox-swagger2")
+    implementation("io.springfox:springfox-swagger-ui")
+    implementation("com.qiniu:qiniu-java-sdk")
+    implementation("com.aliyun.oss:aliyun-sdk-oss")
+    implementation("com.qcloud:cos_api") {
+        exclude group: "org.slf4j", module: "slf4j-log4j12"
+    }
+    implementation("joda-time:joda-time")
+    implementation("com.alibaba:fastjson")
+    implementation("cn.hutool:hutool-all")
+    implementation("com.google.code.gson:gson")
+}
+application {
+    mainClassName = "io.renren.RenrenApplication"
+}
