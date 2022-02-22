@@ -8,9 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * 这是一个声明式的远程调用
  */
 @FeignClient("gulimall-coupon")
+@RequestMapping("/coupon/coupon")
 public interface CouponFeignService {
 
-    @RequestMapping("/coupon/coupon/member/list")
-    public R membercoupons();
+    @RequestMapping("/member/list")
+    R membercoupons();
 
 }
