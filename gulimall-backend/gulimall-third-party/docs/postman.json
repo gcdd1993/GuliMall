@@ -1,0 +1,43 @@
+{
+  "info": {
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "93a838a8-08a3-4bd2-9384-df81dd48f1d2",
+    "name": "gulimall-third-party"
+  },
+  "item": [
+    {
+      "name": "Interface name is not set.",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-third-party.server/oss/policy",
+              "protocol": "http",
+              "path": [
+                "oss",
+                "policy"
+              ],
+              "host": [
+                "{{gulimall-third-party.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-    "serverUrl": "http://{{gulimall-third-party.server}}",
+    "serverUrl": "{{gulimall-third-party.server}}",
     "outPath": "docs",
     "projectName": "gulimall-third-party",
     "appToken": "a1ad9d78b0b04d81bdf3bd917928cedc",

@@ -1,0 +1,1186 @@
+{
+  "info": {
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "6ae3fb56-e344-48cc-a8b4-5f845a1e6e5b",
+    "name": "gulimall-ware"
+  },
+  "item": [
+    {
+      "name": "采购信息",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 822,\n  \"items\": [\n    {\n      \"itemId\": 148,\n      \"status\": 288,\n      \"reason\": \"qquz4t\"\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchase/done",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchase",
+                "done"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "领取采购单",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  487,\n  555\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchase/received",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchase",
+                "received"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "领取采购单",
+            "header": []
+          },
+          "description": "领取采购单"
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"purchaseId\": 537,\n  \"items\": [\n    860\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchase/merge",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchase",
+                "merge"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchase/unreceive/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchase",
+                "unreceive",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchase/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchase",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchase/info/429",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchase",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "978",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchase/save",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchase",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchase/update",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchase",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchase/delete",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchase",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "Interface name is not set.",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchasedetail/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchasedetail",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchasedetail/info/798",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchasedetail",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "550",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchasedetail/save",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchasedetail",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchasedetail/update",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchasedetail",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/purchasedetail/delete",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "purchasedetail",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "仓库信息",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareinfo/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareinfo",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareinfo/info/753",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareinfo",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "532",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareinfo/save",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareinfo",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareinfo/update",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareinfo",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareinfo/delete",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareinfo",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "库存工作单",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareordertask/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareordertask",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareordertask/info/686",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareordertask",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "989",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareordertask/save",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareordertask",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareordertask/update",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareordertask",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareordertask/delete",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareordertask",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "库存工作单",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareordertaskdetail/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareordertaskdetail",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareordertaskdetail/info/574",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareordertaskdetail",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "246",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareordertaskdetail/save",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareordertaskdetail",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareordertaskdetail/update",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareordertaskdetail",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/wareordertaskdetail/delete",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "wareordertaskdetail",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "商品库存",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/waresku/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "waresku",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/waresku/info/228",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "waresku",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "107",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/waresku/save",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "waresku",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/waresku/update",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "waresku",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-ware.server/ware/waresku/delete",
+              "protocol": "http",
+              "path": [
+                "ware",
+                "waresku",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-ware.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    }
+  ]
+}

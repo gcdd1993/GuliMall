@@ -1,5 +1,5 @@
 {
-    "serverUrl": "http://{{gulimall-coupon.server}}",
+    "serverUrl": "{{gulimall-coupon.server}}",
     "outPath": "docs",
     "projectName": "gulimall-coupon",
     "appToken": "e4d7d1a1acab4c3093743fb46958a7f8",

@@ -1,0 +1,1401 @@
+{
+  "info": {
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "d93a1f51-4e90-4adf-a1a5-3ad2f2dfa25a",
+    "name": "gulimall-order"
+  },
+  "item": [
+    {
+      "name": "订单",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/order/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "order",
+                "order",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/order/info/750",
+              "protocol": "http",
+              "path": [
+                "order",
+                "order",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "305",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/order/save",
+              "protocol": "http",
+              "path": [
+                "order",
+                "order",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/order/update",
+              "protocol": "http",
+              "path": [
+                "order",
+                "order",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/order/delete",
+              "protocol": "http",
+              "path": [
+                "order",
+                "order",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "订单项信息",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderitem/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderitem",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderitem/info/680",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderitem",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "218",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderitem/save",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderitem",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderitem/update",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderitem",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderitem/delete",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderitem",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "订单操作历史记录",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderoperatehistory/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderoperatehistory",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderoperatehistory/info/296",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderoperatehistory",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "62",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderoperatehistory/save",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderoperatehistory",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderoperatehistory/update",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderoperatehistory",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderoperatehistory/delete",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderoperatehistory",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "订单退货申请",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderreturnapply/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderreturnapply",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderreturnapply/info/120",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderreturnapply",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "278",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderreturnapply/save",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderreturnapply",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderreturnapply/update",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderreturnapply",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderreturnapply/delete",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderreturnapply",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "退货原因",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderreturnreason/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderreturnreason",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderreturnreason/info/492",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderreturnreason",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "638",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderreturnreason/save",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderreturnreason",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderreturnreason/update",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderreturnreason",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/orderreturnreason/delete",
+              "protocol": "http",
+              "path": [
+                "order",
+                "orderreturnreason",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "订单配置信息",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/ordersetting/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "order",
+                "ordersetting",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/ordersetting/info/964",
+              "protocol": "http",
+              "path": [
+                "order",
+                "ordersetting",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "331",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/ordersetting/save",
+              "protocol": "http",
+              "path": [
+                "order",
+                "ordersetting",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/ordersetting/update",
+              "protocol": "http",
+              "path": [
+                "order",
+                "ordersetting",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/ordersetting/delete",
+              "protocol": "http",
+              "path": [
+                "order",
+                "ordersetting",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "支付信息表",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/paymentinfo/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "order",
+                "paymentinfo",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/paymentinfo/info/485",
+              "protocol": "http",
+              "path": [
+                "order",
+                "paymentinfo",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "787",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/paymentinfo/save",
+              "protocol": "http",
+              "path": [
+                "order",
+                "paymentinfo",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/paymentinfo/update",
+              "protocol": "http",
+              "path": [
+                "order",
+                "paymentinfo",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/paymentinfo/delete",
+              "protocol": "http",
+              "path": [
+                "order",
+                "paymentinfo",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "退款信息",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/refundinfo/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "order",
+                "refundinfo",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/refundinfo/info/43",
+              "protocol": "http",
+              "path": [
+                "order",
+                "refundinfo",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "936",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/refundinfo/save",
+              "protocol": "http",
+              "path": [
+                "order",
+                "refundinfo",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/refundinfo/update",
+              "protocol": "http",
+              "path": [
+                "order",
+                "refundinfo",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-order.server/order/refundinfo/delete",
+              "protocol": "http",
+              "path": [
+                "order",
+                "refundinfo",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-order.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    }
+  ]
+}

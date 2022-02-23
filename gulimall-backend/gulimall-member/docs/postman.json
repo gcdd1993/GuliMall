@@ -1,0 +1,1605 @@
+{
+  "info": {
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "caee92ba-1918-439d-9f8e-b2212424d8d4",
+    "name": "gulimall-member"
+  },
+  "item": [
+    {
+      "name": "成长值变化历史记录",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/growthchangehistory/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "member",
+                "growthchangehistory",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/growthchangehistory/info/509",
+              "protocol": "http",
+              "path": [
+                "member",
+                "growthchangehistory",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "290",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/growthchangehistory/save",
+              "protocol": "http",
+              "path": [
+                "member",
+                "growthchangehistory",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/growthchangehistory/update",
+              "protocol": "http",
+              "path": [
+                "member",
+                "growthchangehistory",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/growthchangehistory/delete",
+              "protocol": "http",
+              "path": [
+                "member",
+                "growthchangehistory",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "积分变化历史记录",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/integrationchangehistory/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "member",
+                "integrationchangehistory",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/integrationchangehistory/info/862",
+              "protocol": "http",
+              "path": [
+                "member",
+                "integrationchangehistory",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "906",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/integrationchangehistory/save",
+              "protocol": "http",
+              "path": [
+                "member",
+                "integrationchangehistory",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/integrationchangehistory/update",
+              "protocol": "http",
+              "path": [
+                "member",
+                "integrationchangehistory",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/integrationchangehistory/delete",
+              "protocol": "http",
+              "path": [
+                "member",
+                "integrationchangehistory",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "会员收藏的商品",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/membercollectspu/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "member",
+                "membercollectspu",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/membercollectspu/info/40",
+              "protocol": "http",
+              "path": [
+                "member",
+                "membercollectspu",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "68",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/membercollectspu/save",
+              "protocol": "http",
+              "path": [
+                "member",
+                "membercollectspu",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/membercollectspu/update",
+              "protocol": "http",
+              "path": [
+                "member",
+                "membercollectspu",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/membercollectspu/delete",
+              "protocol": "http",
+              "path": [
+                "member",
+                "membercollectspu",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "会员收藏的专题活动",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/membercollectsubject/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "member",
+                "membercollectsubject",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/membercollectsubject/info/611",
+              "protocol": "http",
+              "path": [
+                "member",
+                "membercollectsubject",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "13",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/membercollectsubject/save",
+              "protocol": "http",
+              "path": [
+                "member",
+                "membercollectsubject",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/membercollectsubject/update",
+              "protocol": "http",
+              "path": [
+                "member",
+                "membercollectsubject",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/membercollectsubject/delete",
+              "protocol": "http",
+              "path": [
+                "member",
+                "membercollectsubject",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "会员",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/member/coupons",
+              "protocol": "http",
+              "path": [
+                "member",
+                "member",
+                "coupons"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/member/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "member",
+                "member",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/member/info/117",
+              "protocol": "http",
+              "path": [
+                "member",
+                "member",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "906",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/member/save",
+              "protocol": "http",
+              "path": [
+                "member",
+                "member",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/member/update",
+              "protocol": "http",
+              "path": [
+                "member",
+                "member",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/member/delete",
+              "protocol": "http",
+              "path": [
+                "member",
+                "member",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "会员等级",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberlevel/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberlevel",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberlevel/info/987",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberlevel",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "662",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberlevel/save",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberlevel",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberlevel/update",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberlevel",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberlevel/delete",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberlevel",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "会员登录记录",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberloginlog/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberloginlog",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberloginlog/info/155",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberloginlog",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "617",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberloginlog/save",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberloginlog",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberloginlog/update",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberloginlog",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberloginlog/delete",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberloginlog",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "会员收货地址",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberreceiveaddress/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberreceiveaddress",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberreceiveaddress/info/212",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberreceiveaddress",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "770",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberreceiveaddress/save",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberreceiveaddress",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberreceiveaddress/update",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberreceiveaddress",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberreceiveaddress/delete",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberreceiveaddress",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "会员统计信息",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberstatisticsinfo/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberstatisticsinfo",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberstatisticsinfo/info/278",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberstatisticsinfo",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "989",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberstatisticsinfo/save",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberstatisticsinfo",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberstatisticsinfo/update",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberstatisticsinfo",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-member.server/member/memberstatisticsinfo/delete",
+              "protocol": "http",
+              "path": [
+                "member",
+                "memberstatisticsinfo",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-member.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    }
+  ]
+}

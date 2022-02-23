@@ -1,0 +1,2712 @@
+{
+  "info": {
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "e9bb3d4d-fb16-469d-857d-5867fdc27117",
+    "name": "gulimall-coupon"
+  },
+  "item": [
+    {
+      "name": "优惠券信息",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/coupon/test",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "coupon",
+                "test"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/coupon/member/list",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "coupon",
+                "member",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/coupon/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "coupon",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/coupon/info/631",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "coupon",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "772",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/coupon/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "coupon",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/coupon/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "coupon",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/coupon/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "coupon",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "优惠券领取历史记录",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponhistory/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponhistory",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponhistory/info/462",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponhistory",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "267",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponhistory/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponhistory",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponhistory/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponhistory",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponhistory/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponhistory",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "优惠券分类关联",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponspucategoryrelation/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponspucategoryrelation",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponspucategoryrelation/info/822",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponspucategoryrelation",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "440",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponspucategoryrelation/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponspucategoryrelation",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponspucategoryrelation/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponspucategoryrelation",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponspucategoryrelation/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponspucategoryrelation",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "优惠券与产品关联",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponspurelation/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponspurelation",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponspurelation/info/406",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponspurelation",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "43",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponspurelation/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponspurelation",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponspurelation/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponspurelation",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/couponspurelation/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "couponspurelation",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "首页轮播广告",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homeadv/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homeadv",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homeadv/info/521",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homeadv",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "630",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homeadv/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homeadv",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homeadv/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homeadv",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homeadv/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homeadv",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "首页专题表【jd首页下面很多专题，每个专题链接新的页面，展示专题商品信息】",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homesubject/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homesubject",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homesubject/info/481",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homesubject",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "919",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homesubject/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homesubject",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homesubject/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homesubject",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homesubject/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homesubject",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "专题商品",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homesubjectspu/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homesubjectspu",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homesubjectspu/info/408",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homesubjectspu",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "315",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homesubjectspu/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homesubjectspu",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homesubjectspu/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homesubjectspu",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/homesubjectspu/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "homesubjectspu",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "商品会员价格",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/memberprice/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "memberprice",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/memberprice/info/487",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "memberprice",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "814",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/memberprice/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "memberprice",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/memberprice/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "memberprice",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/memberprice/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "memberprice",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "秒杀活动",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillpromotion/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillpromotion",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillpromotion/info/342",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillpromotion",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "830",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillpromotion/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillpromotion",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillpromotion/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillpromotion",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillpromotion/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillpromotion",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "秒杀活动场次",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillsession/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillsession",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillsession/info/998",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillsession",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "152",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillsession/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillsession",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillsession/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillsession",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillsession/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillsession",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "秒杀商品通知订阅",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillskunotice/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillskunotice",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillskunotice/info/643",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillskunotice",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "760",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillskunotice/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillskunotice",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillskunotice/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillskunotice",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillskunotice/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillskunotice",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "秒杀活动商品关联",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillskurelation/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillskurelation",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillskurelation/info/458",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillskurelation",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "276",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillskurelation/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillskurelation",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillskurelation/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillskurelation",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/seckillskurelation/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "seckillskurelation",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "商品满减信息",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"skuId\": 53,\n  \"fullCount\": 45,\n  \"discount\": 41,\n  \"countStatus\": 603,\n  \"fullPrice\": 277,\n  \"reducePrice\": 863,\n  \"priceStatus\": 571,\n  \"memberPrice\": [\n    {\n      \"id\": 509,\n      \"name\": \"ulysses.balistreri\",\n      \"price\": 786\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/skufullreduction/saveinfo",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "skufullreduction",
+                "saveinfo"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/skufullreduction/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "skufullreduction",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/skufullreduction/info/8",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "skufullreduction",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "739",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/skufullreduction/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "skufullreduction",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/skufullreduction/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "skufullreduction",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/skufullreduction/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "skufullreduction",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "商品阶梯价格",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/skuladder/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "skuladder",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/skuladder/info/938",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "skuladder",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "653",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/skuladder/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "skuladder",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/skuladder/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "skuladder",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/skuladder/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "skuladder",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "商品spu积分设置",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/spubounds/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "spubounds",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/spubounds/info/377",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "spubounds",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "915",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 569,\n  \"spuId\": 556,\n  \"growBounds\": 572,\n  \"buyBounds\": 832,\n  \"work\": 668\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/spubounds/save",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "spubounds",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/spubounds/update",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "spubounds",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-coupon.server/coupon/spubounds/delete",
+              "protocol": "http",
+              "path": [
+                "coupon",
+                "spubounds",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-coupon.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3073 @@
+{
+  "info": {
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "acb2ac7c-e5f5-464e-b153-dbbaeff1506e",
+    "name": "gulimall-product"
+  },
+  "item": [
+    {
+      "name": "属性\u0026属性分组关联",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrattrgrouprelation/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrattrgrouprelation",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrattrgrouprelation/info/184",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrattrgrouprelation",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "394",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrattrgrouprelation/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrattrgrouprelation",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrattrgrouprelation/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrattrgrouprelation",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrattrgrouprelation/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrattrgrouprelation",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "商品属性",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attr/base/listforspu/957",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attr",
+                "base",
+                "listforspu",
+                ":spuId"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "spuId",
+                  "value": "893",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attr/rn5eu8/list/451?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attr",
+                ":attrType",
+                "list",
+                ":catelogId"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": [
+                {
+                  "key": "catelogId",
+                  "value": "463",
+                  "description": "No comments found."
+                },
+                {
+                  "key": "attrType",
+                  "value": "lprkab",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attr/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attr",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attr/info/28",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attr",
+                "info",
+                ":attrId"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "attrId",
+                  "value": "644",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attr/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attr",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attr/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attr",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  {\n    \"id\": 996,\n    \"spuId\": 642,\n    \"attrId\": 234,\n    \"attrName\": \"ulysses.balistreri\",\n    \"attrValue\": \"znh4ce\",\n    \"attrSort\": 51,\n    \"quickShow\": 629\n  }\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attr/update/25",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attr",
+                "update",
+                ":spuId"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "spuId",
+                  "value": "533",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attr/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attr",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "属性分组",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  {\n    \"attrId\": 40,\n    \"attrGroupId\": 620\n  }\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrgroup/attr/relation",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrgroup",
+                "attr",
+                "relation"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrgroup/960/withattr",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrgroup",
+                ":catelogId",
+                "withattr"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "catelogId",
+                  "value": "120",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrgroup/658/attr/relation",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrgroup",
+                ":attrgroupId",
+                "attr",
+                "relation"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "attrgroupId",
+                  "value": "901",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrgroup/730/noattr/relation?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrgroup",
+                ":attrgroupId",
+                "noattr",
+                "relation"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": [
+                {
+                  "key": "attrgroupId",
+                  "value": "761",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  {\n    \"attrId\": 229,\n    \"attrGroupId\": 578\n  }\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrgroup/attr/relation/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrgroup",
+                "attr",
+                "relation",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrgroup/list/33?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrgroup",
+                "list",
+                ":catelogId"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": [
+                {
+                  "key": "catelogId",
+                  "value": "206",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrgroup/info/760",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrgroup",
+                "info",
+                ":attrGroupId"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "attrGroupId",
+                  "value": "31",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrgroup/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrgroup",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrgroup/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrgroup",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/attrgroup/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "attrgroup",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "品牌",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/brand/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "brand",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/brand/info/227",
+              "protocol": "http",
+              "path": [
+                "product",
+                "brand",
+                "info",
+                ":brandId"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "brandId",
+                  "value": "961",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/brand/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "brand",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/brand/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "brand",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "修改状态",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/brand/update/status",
+              "protocol": "http",
+              "path": [
+                "product",
+                "brand",
+                "update",
+                "status"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改状态",
+            "header": []
+          },
+          "description": "修改状态"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/brand/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "brand",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "品牌分类关联",
+      "item": [
+        {
+          "name": "获取当前品牌关联的所有分类列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/categorybrandrelation/catelog/list?brandId\u003d373",
+              "protocol": "http",
+              "path": [
+                "product",
+                "categorybrandrelation",
+                "catelog",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "brandId",
+                  "value": "384",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "description": "获取当前品牌关联的所有分类列表",
+            "header": []
+          },
+          "description": "获取当前品牌关联的所有分类列表"
+        },
+        {
+          "name": "/product/categorybrandrelation/brands/list 1、Controller：处理请求，接受和校验数据 2、Service接受controller传来的数据，进行业务处理 3、Controller接受Service处理完的数据，封装页面指定的vo",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/categorybrandrelation/brands/list?catId\u003d609",
+              "protocol": "http",
+              "path": [
+                "product",
+                "categorybrandrelation",
+                "brands",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "catId",
+                  "value": "426",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "description": "/product/categorybrandrelation/brands/list 1、Controller：处理请求，接受和校验数据 2、Service接受controller传来的数据，进行业务处理 3、Controller接受Service处理完的数据，封装页面指定的vo",
+            "header": []
+          },
+          "description": "/product/categorybrandrelation/brands/list\r\n\r\n 1、Controller：处理请求，接受和校验数据\r\n 2、Service接受controller传来的数据，进行业务处理\r\n 3、Controller接受Service处理完的数据，封装页面指定的vo"
+        },
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/categorybrandrelation/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "categorybrandrelation",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/categorybrandrelation/info/822",
+              "protocol": "http",
+              "path": [
+                "product",
+                "categorybrandrelation",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "249",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/categorybrandrelation/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "categorybrandrelation",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/categorybrandrelation/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "categorybrandrelation",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/categorybrandrelation/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "categorybrandrelation",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "商品三级分类",
+      "item": [
+        {
+          "name": "查出所有分类以及子分类，以树形结构组装起来",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/category/list/tree",
+              "protocol": "http",
+              "path": [
+                "product",
+                "category",
+                "list",
+                "tree"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "查出所有分类以及子分类，以树形结构组装起来",
+            "header": []
+          },
+          "description": "查出所有分类以及子分类，以树形结构组装起来"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/category/info/267",
+              "protocol": "http",
+              "path": [
+                "product",
+                "category",
+                "info",
+                ":catId"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "catId",
+                  "value": "34",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/category/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "category",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/category/update/sort",
+              "protocol": "http",
+              "path": [
+                "product",
+                "category",
+                "update",
+                "sort"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "",
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/category/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "category",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/category/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "category",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "商品评价回复关系",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/commentreplay/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "commentreplay",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/commentreplay/info/328",
+              "protocol": "http",
+              "path": [
+                "product",
+                "commentreplay",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "630",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/commentreplay/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "commentreplay",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/commentreplay/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "commentreplay",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/commentreplay/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "commentreplay",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "spu属性值",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/productattrvalue/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "productattrvalue",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/productattrvalue/info/154",
+              "protocol": "http",
+              "path": [
+                "product",
+                "productattrvalue",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "310",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/productattrvalue/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "productattrvalue",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/productattrvalue/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "productattrvalue",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/productattrvalue/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "productattrvalue",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "sku图片",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skuimages/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skuimages",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skuimages/info/59",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skuimages",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "469",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skuimages/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skuimages",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skuimages/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skuimages",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skuimages/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skuimages",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "sku信息",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skuinfo/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skuinfo",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skuinfo/info/438",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skuinfo",
+                "info",
+                ":skuId"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "skuId",
+                  "value": "299",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skuinfo/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skuinfo",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skuinfo/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skuinfo",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skuinfo/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skuinfo",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "sku销售属性\u0026值",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skusaleattrvalue/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skusaleattrvalue",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skusaleattrvalue/info/415",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skusaleattrvalue",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "654",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skusaleattrvalue/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skusaleattrvalue",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skusaleattrvalue/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skusaleattrvalue",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/skusaleattrvalue/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "skusaleattrvalue",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "商品评价",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spucomment/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spucomment",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spucomment/info/871",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spucomment",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "331",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spucomment/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spucomment",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spucomment/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spucomment",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spucomment/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spucomment",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "spu图片",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuimages/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuimages",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuimages/info/834",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuimages",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "458",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuimages/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuimages",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuimages/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuimages",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuimages/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuimages",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "spu信息",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuinfo/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuinfo",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuinfo/info/534",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuinfo",
+                "info",
+                ":id"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "29",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuinfo/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuinfo",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuinfo/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuinfo",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuinfo/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuinfo",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "spu信息介绍",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuinfodesc/list?params\u003d",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuinfodesc",
+                "list"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuinfodesc/info/172",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuinfodesc",
+                "info",
+                ":spuId"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "spuId",
+                  "value": "836",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "信息",
+            "header": []
+          },
+          "description": "信息"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuinfodesc/save",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuinfodesc",
+                "save"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "修改",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuinfodesc/update",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuinfodesc",
+                "update"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改",
+            "header": []
+          },
+          "description": "修改"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://::gulimall-product.server/product/spuinfodesc/delete",
+              "protocol": "http",
+              "path": [
+                "product",
+                "spuinfodesc",
+                "delete"
+              ],
+              "host": [
+                "{{gulimall-product.server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    }
+  ]
+}
