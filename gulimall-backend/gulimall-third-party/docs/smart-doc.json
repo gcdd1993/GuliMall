@@ -1,0 +1,9 @@
+{
+    "serverUrl": "http://{{gulimall-third-party.server}}",
+    "outPath": "docs",
+    "projectName": "gulimall-third-party",
+    "appToken": "a1ad9d78b0b04d81bdf3bd917928cedc",
+    "openUrl": "http://localhost:7700/api",
+    "debugEnvName": "测试环境",
+    "replace": true
+}

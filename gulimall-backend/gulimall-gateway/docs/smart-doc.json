@@ -1,0 +1,9 @@
+{
+    "serverUrl": "http://{{gulimall-coupon.server}}",
+    "outPath": "docs",
+    "projectName": "gulimall-coupon",
+    "appToken": "8ac021b4c1a94c2584bf56eff15699e9",
+    "openUrl": "http://localhost:7700/api",
+    "debugEnvName": "测试环境",
+    "replace": true
+}

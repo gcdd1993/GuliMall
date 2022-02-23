@@ -1,0 +1,9 @@
+{
+    "serverUrl": "http://{{gulimall-product.server}}",
+    "outPath": "docs",
+    "projectName": "gulimall-product",
+    "appToken": "3bd5e988eb16401087a934936c65007f",
+    "openUrl": "http://localhost:7700/api",
+    "debugEnvName": "测试环境",
+    "replace": true
+}

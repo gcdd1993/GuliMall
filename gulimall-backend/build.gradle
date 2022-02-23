@@ -5,6 +5,7 @@ plugins {
     id "org.springframework.boot" version "${spring_boot_version}" apply false
     id "com.gorylenko.gradle-git-properties" version "2.2.4" apply false
     id "groovy-gradle-plugin"
+    id "com.github.shalousun.smart-doc" version "2.3.8" apply false
 }
 
 def javaVersion = System.getProperty("java.version")
@@ -25,6 +26,11 @@ subprojects { project ->
         apply from: "${rootDir}/gradle/maven-publish.gradle"
     } else {
         apply from: "${rootDir}/gradle/docker.gradle"
+        apply plugin: "com.github.shalousun.smart-doc"
+
+        smartdoc {
+            configFile = file("docs/smart-doc.json")
+        }
     }
 
     java {
